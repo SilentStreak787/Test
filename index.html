@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Void Remnants</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; overflow: hidden; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+    <script src="src/utils/constants.js"></script>
+    <script src="src/utils/helpers.js"></script>
+    <script src="src/utils/EventBus.js"></script>
+    <script src="src/utils/SaveSystem.js"></script>
+    <script src="src/data/items.js"></script>
+    <script src="src/data/recipes.js"></script>
+    <script src="src/data/resources.js"></script>
+    <script src="src/data/zones.js"></script>
+    <script src="src/data/worldData.js"></script>
+    <script src="src/systems/InventorySystem.js"></script>
+    <script src="src/systems/CraftingSystem.js"></script>
+    <script src="src/systems/ZoneSystem.js"></script>
+    <script src="src/systems/ResourceSystem.js"></script>
+    <script src="src/entities/Player.js"></script>
+    <script src="src/entities/Zone.js"></script>
+    <script src="src/entities/ResourceNode.js"></script>
+    <script src="src/entities/Machine.js"></script>
+    <script src="src/ui/HUD.js"></script>
+    <script src="src/ui/MiniMap.js"></script>
+    <script src="src/ui/ZoneUI.js"></script>
+    <script src="src/scenes/BootScene.js"></script>
+    <script src="src/scenes/MenuScene.js"></script>
+    <script src="src/scenes/WorldScene.js"></script>
+    <script src="src/scenes/CraftingScene.js"></script>
+    <script src="src/scenes/UIScene.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>
